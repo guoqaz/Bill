@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>		 
+		<setting name="autoMappingBehavior" value="FULL"/>
+	</settings>
+
+	<typeAliases>
+	<!-- ssm.entity包下的所有类，起别名。别名为类名（减少了包名的书写）-->
+		<package name="ssm.entity"/>
+	</typeAliases>
+</configuration>
